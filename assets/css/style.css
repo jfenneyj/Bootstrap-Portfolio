@@ -7,8 +7,8 @@
  
 }
 
-#container {
-  width: 900px;
+.container {
+  width: 960px;
   background-color: #ffffff;
   margin: auto;
   padding: 30px;
@@ -40,7 +40,7 @@ h3 {
   bottom: 70px;
 }
 
-a {
+.alert-link {
  text-decoration: none;
  color: #777777
 }
@@ -55,7 +55,7 @@ a {
   
 }
 
-.name {
+.bg-info {
  background-color: #4aaaa5;
  color: #ffffff;
  font-size: 30px;
@@ -63,13 +63,13 @@ a {
  width: 165px;
  height: 45px;
  float: left;
- padding: 10px 5px 15px 20px;
+ padding: 10px 5px 40px 10px;
  margin: 10px 0 0 75px;
  position: absolute;
  left: 15px;
 }
 
-nav {
+.nav {
   text-align: right;
   margin-right: 75px;
 }
@@ -83,7 +83,7 @@ nav li {
   padding: 30px 10px 10px 10px;
 }
 
-h1 {
+.text-white {
   font-family: 'Georgia','Times', 'Times New Roman', serif;
   font-size: 30px;
   color: #fff;
