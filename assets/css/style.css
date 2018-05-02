@@ -7,8 +7,13 @@
  
 }
 
+<<<<<<< HEAD
 #container {
   width: 900px;
+=======
+.container {
+  width: 960px;
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
   background-color: #ffffff;
   margin: auto;
   padding: 30px;
@@ -40,7 +45,11 @@ h3 {
   bottom: 70px;
 }
 
+<<<<<<< HEAD
 a {
+=======
+.alert-link {
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
  text-decoration: none;
  color: #777777
 }
@@ -55,7 +64,11 @@ a {
   
 }
 
+<<<<<<< HEAD
 .name {
+=======
+.bg-info {
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
  background-color: #4aaaa5;
  color: #ffffff;
  font-size: 30px;
@@ -63,13 +76,21 @@ a {
  width: 165px;
  height: 45px;
  float: left;
+<<<<<<< HEAD
  padding: 10px 5px 15px 20px;
+=======
+ padding: 10px 5px 40px 10px;
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
  margin: 10px 0 0 75px;
  position: absolute;
  left: 15px;
 }
 
+<<<<<<< HEAD
 nav {
+=======
+.nav {
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
   text-align: right;
   margin-right: 75px;
 }
@@ -83,7 +104,11 @@ nav li {
   padding: 30px 10px 10px 10px;
 }
 
+<<<<<<< HEAD
 h1 {
+=======
+.text-white {
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
   font-family: 'Georgia','Times', 'Times New Roman', serif;
   font-size: 30px;
   color: #fff;
