@@ -3,7 +3,7 @@
  
 }
 
-#container {
+.container {
   width: 900px;
   background-color: #ffffff;
   margin:  0 auto;
@@ -25,45 +25,6 @@ a .alert-link {
 }
 
 
-/* #header {
-  width: 100%;
-  height: 80px;
-  background-color: #fff;
-  border-bottom: 1px solid #9b9999;
-  margin-bottom: 49px;
-  position: relative;
-  
-} */
-/* 
-<<<<<<< HEAD
-/* .bg-info {
-=======
-<<<<<<< HEAD
-.name {
-=======
-.bg-info {
->>>>>>> 6516ab111106888605e298b2124bb282f25813a6
->>>>>>> 996da62aacd5b56b9a0adf5badb5b8bdf2c2a2a6
- background-color: #4aaaa5;
- color: #ffffff;
- font-size: 30px;
- display: inline-block;
- width: 165px;
- height: 45px;
- float: left;
-<<<<<<< HEAD
- padding: 10px 5px 15px 20px;
-=======
- padding: 10px 5px 40px 10px;
->>>>>>> 6516ab111106888605e298b2124bb282f25813a6
- margin: 10px 0 0 75px;
- position: absolute;
- left: 15px;
-} */
-
-/* div {
-  border: 1px solid #000;
-} */ */
 .navbar {
   margin-bottom: 40px;
   height: 75px;
@@ -89,7 +50,7 @@ nav ul {
   color: #fff;
   padding: 0 10px 10px 10px;
   text-align: center;
-  margin-left: 40px;
+  
 }
 
 h1 .text-white {
@@ -131,6 +92,14 @@ h3 {
   background-color: #4aaaa5;
   padding: 10px 20px;
   color: #fff;
+}
+
+.imgwrapper {
+  width: 50%;
+}
+
+.img-fluid {
+  width: 100% /9;
 }
 
 .image-bio {
