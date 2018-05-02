@@ -3,8 +3,13 @@
  
 }
 
+<<<<<<< HEAD
+#container {
+  width: 900px;
+=======
 .container {
   width: 960px;
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
   background-color: #ffffff;
   margin:  0 auto;
   padding: 20px;
@@ -19,6 +24,17 @@
 } */
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+a {
+=======
+.alert-link {
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
+ text-decoration: none;
+ color: #777777
+}
+>>>>>>> 996da62aacd5b56b9a0adf5badb5b8bdf2c2a2a6
 
 
 /* #header {
@@ -31,7 +47,15 @@
   
 } */
 
+<<<<<<< HEAD
 /* .bg-info {
+=======
+<<<<<<< HEAD
+.name {
+=======
+.bg-info {
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
+>>>>>>> 996da62aacd5b56b9a0adf5badb5b8bdf2c2a2a6
  background-color: #4aaaa5;
  color: #ffffff;
  font-size: 30px;
@@ -39,18 +63,36 @@
  width: 165px;
  height: 45px;
  float: left;
+<<<<<<< HEAD
+ padding: 10px 5px 15px 20px;
+=======
  padding: 10px 5px 40px 10px;
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
  margin: 10px 0 0 75px;
  position: absolute;
  left: 15px;
 } */
 
+<<<<<<< HEAD
 /* div {
   border: 1px solid #000;
 } */
 .navbar {
   margin-bottom: 40px;
   height: 75px;
+=======
+<<<<<<< HEAD
+nav {
+=======
+.nav {
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
+  text-align: right;
+  margin-right: 75px;
+}
+
+nav ul {
+  margin: 0 2px;
+>>>>>>> 996da62aacd5b56b9a0adf5badb5b8bdf2c2a2a6
 }
 .nav-link {
   text-decoration: none;
@@ -66,7 +108,15 @@
   margin-left: 40px;
 }
 
+<<<<<<< HEAD
 h1 {
+=======
+<<<<<<< HEAD
+h1 {
+=======
+.text-white {
+>>>>>>> 6516ab111106888605e298b2124bb282f25813a6
+>>>>>>> 996da62aacd5b56b9a0adf5badb5b8bdf2c2a2a6
   font-family: 'Georgia','Times', 'Times New Roman', serif;
   font-size: 28px;
   background-color: #4aaaa5;
