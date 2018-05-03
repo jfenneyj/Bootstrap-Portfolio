@@ -15,133 +15,118 @@ body {
    
  }
 
+
+
+h1,
+h2 {
+  font-family: 'Georgia','Times', 'Times New Roman', serif;
+  font-size: 30px;
+  color: #4aaaa5;
+}
+
+ h3 {
+  background-color: #4aaaa5;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 70px;
+}
+
+ /* Navigation */
+
  .navbar {
+   padding: 16px;
    width: 100%;
    height: 80px;
    margin-bottom: 40px;
  }
+
+ .navbar-nav {
+   padding-right: 20px;
+ }
+
+ .nav-link {
+   font-size: 1.1em !important;
+   color: #777777
+ }
+
+ .logo {
+  width: 180px;
+  height: 60px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+/* Main-content */
  
+.padding {
+  padding: 0 0 30px 40px;
+  margin: auto;
+}
+
+
+
+.image-bio {
+  width: 230px;
+  height: 190px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  /* margin-top: 20px;  */
+}
+
+.content {
+  width: 960px;
+  height: 700px;
+  background-color: #fff;
+}
+
+.bottom-p {
+  clear: right;
+}
+
+
+/* Portfolio */
+
  img {
    width: 300px;
    height: 200px;
    margin-bottom: 20px;
    border: 1px solid #bbbbbb;
- }
- 
- /* .child {
-   float: left;
-   margin-right: 30px;
    position: relative;
- } */
- 
- h3 {
-   background-color: #4aaaa5;
-   color: #fff;
-   width: 100%;
-   height: 40px;
-   font-size: 20px;
-   text-align: center;
-   padding-top: 10px;
-   position: absolute;
-   bottom: 70px;
  }
- 
- .logo {
-   width: 170px;
-   height: 49px;
-   margin-top: 50px;
- }
- a {
-  text-decoration: none;
-  color: #777777
- }
- 
- #header {
-   width: 100%;
-   height: 80px;
-   background-color: #fff;
-   border-bottom: 1px solid #9b9999;
-   margin-bottom: 49px;
-   position: relative;
-   
- }
- 
- /* .name {
-  background-color: #4aaaa5;
-  color: #ffffff;
-  font-size: 30px;
-  display: inline-block;
-  width: 165px;
-  height: 45px;
-  float: left;
-  padding: 10px 5px 15px 20px;
-  margin: 10px 0 0 75px;
+ .images h3 {
   position: absolute;
-  left: 15px;
- } */
+  bottom: 20px;
+  width: 100%;
+  padding:40px 0 0 0;
+}
  
- nav {
-   text-align: right;
-   margin-right: 75px;
+ 
+ /* Contact */
+ 
+ .form {
+   width: 90%;
+   margin: auto;
+
  }
  
- nav ul {
-   margin: 0 2px;
- }
- 
- nav li {
-   display: inline-block;
-   padding: 30px 10px 10px 10px;
- }
- 
- h1 {
-   font-family: 'Georgia','Times', 'Times New Roman', serif;
-   font-size: 30px;
-   color: #fff;
- }
- 
- h2 {
-   font-family: 'Georgia','Times', 'Times New Roman', serif;
-   font-size: 30px;
-   color: #4aaaa5;
- }
- 
- /* .head-title {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
- } */
- 
+
  #btn {
    background-color: #4aaaa5;
    padding: 10px 20px;
    color: #fff;
  }
  
- /* .image-bio {
-   width: 230px;
-   height: 190px;
-   
-   
- } */
- 
- p {
-   font-size: 14px;
-   line-height: 1.5;
-   margin-bottom: 10px;
-   margin-right: 10px;
-   /* margin-top: 20px;  */
- }
- 
- .content {
-   width: 900px;
-   height: 700px;
-   background-color: #fff;
- }
- 
- .bottom-p {
-   clear: right;
- }
+ /* Footer */
  
  footer {
    background-color: #666666;
@@ -157,10 +142,7 @@ body {
    
  }
  
- figure {
-   position: relative;
-   bottom: -50px;
- }
+ 
  
  footer1 {
    background-color: #666666;
@@ -175,13 +157,44 @@ body {
    vertical-align: center;
  }
 
+
+/* Media Queries */
+@media (maxiwidth: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+
+ /* Misc */
  
  
+ /* #header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  border-bottom: 1px solid #9b9999;
+  margin-bottom: 49px;
+  position: relative;
+  
+} */
  
+ /* figure {
+   position: relative;
+   bottom: -50px;
+ } */
  
- 
- 
- 
+  /* .head-title {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+ } */
  
  
  
