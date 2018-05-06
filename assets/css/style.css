@@ -145,9 +145,10 @@ p {
    font-size: 14px;
    color: #c4c4c4;
    position: absolute;
-   bottom: 0;
+   bottom: -300px;
    width: 100%;
    margin: 0 auto;
+  
  }
  
 
